@@ -13,6 +13,10 @@ public class TestArtsmiaDAO {
 		List<ArtObject> objects = dao.listObject() ;
 		System.out.println(objects.size());
 
+		System.out.println(dao.getExhibitionsPair(2000).size());
+		
+		System.out.println(dao.getAllExhibitions(2000).size());
+		
 	}
 
 }
